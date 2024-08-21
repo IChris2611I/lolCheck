@@ -1,6 +1,6 @@
-import Main from "./components/homePage/ui/Main";
-import Nav from "./components/homePage/ui/Nav";
-import Section from "./components/homePage/ui/Section";
+import Main from './components/homePage/ui/Main';
+import Nav from './components/homePage/ui/Nav';
+import Section from './components/homePage/ui/Section';
 
 export default function App() {
   return (
@@ -12,5 +12,5 @@ export default function App() {
         <Main />
       </div>
     </div>
-  )
+  );
 }

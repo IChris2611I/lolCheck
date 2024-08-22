@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import buttonSection from "../../../constant/buttonSection";
 import Button from "../elements/Button";
 
@@ -10,13 +11,14 @@ export default function SectionLeft({ className }) {
 				<img src="/logo.png" alt="logo riot game" className="w-18 h-14" />
 			</div>
 			<div className="w-full h-5/6 flex flex-col justify-between overflow-hidden">
-				{buttonSection.map(({ text, img, id }) => (
-					<Button
-						key={id}
-						text={text}
-						img={img}
-						className="border-b last:border-none last:rounded-bl-xl"
-					/>
+				{buttonSection.map(({ text, img, id, link }) => (
+					<Link key={id} to={link}>
+						<Button
+							text={text}
+							img={img}
+							className="border-b last:border-none last:rounded-bl-xl"
+						/>
+					</Link>
 				))}
 			</div>
 		</div>

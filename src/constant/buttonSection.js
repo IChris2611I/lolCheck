@@ -6,32 +6,32 @@ const buttonSection = [
   },
   {
     text: 'Team Fight Tatics',
-    img: '/lolButton.png',
+    img: '/tft.png',
     link: 'lol',
   },
   {
     text: 'Valorant',
-    img: '/lolButton.png',
+    img: '/vl.png',
     link: 'lol',
   },
   {
     text: 'Runterra',
-    img: '/lolButton.png',
+    img: '/rt2.png',
     link: 'lol',
   },
   {
     text: 'Wild Drift',
-    img: '/lolButton.png',
+    img: '/wd.png',
     link: 'lol',
   },
   {
     text: 'Project L',
-    img: '/lolButton.png',
+    img: '/pl2.png',
     link: 'lol',
   },
   {
     text: 'Ruined King',
-    img: '/lolButton.png',
+    img: '/rk.png',
     link: 'lol',
   },
 ];

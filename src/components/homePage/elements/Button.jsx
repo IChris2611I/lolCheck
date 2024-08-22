@@ -1,8 +1,9 @@
-export default function Button({ text, img, className }) {
+export default function Button({ text, img, className, onClick }) {
 	return (
 		<button
 			type="button"
-			className={`w-full flex justify-between items-center bg-[#FFFFFF1A] hover:bg-slate-800 text-white p-3 ${className}`}
+			className={`border-y border-white/50 w-full flex justify-between items-center bg-[#FFFFFF1A] hover:bg-slate-800 text-white p-3 ${className}`}
+			onClick={onClick}
 		>
 			<div>
 				<span className="font-normal tracking-wider">{text}</span>

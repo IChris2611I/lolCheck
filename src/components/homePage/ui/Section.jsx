@@ -1,9 +1,11 @@
 import buttonSection from '../../../constant/buttonSection';
 import Button from '../elements/Button';
 
-export default function SectionLeft() {
+export default function SectionLeft({ className }) {
   return (
-    <div className="h-full w-full col-span-3 row-span-full flex flex-col border-r border-white/10">
+    <div
+      className={`${className} h-full w-full col-span-3 row-span-full flex flex-col rounded-l-xl border-r border-white/20`}
+    >
       <div className="h-1/6 w-full  flex justify-center items-center">
         <img src="/logo.png" alt="logo riot game" className="w-18 h-14" />
       </div>
